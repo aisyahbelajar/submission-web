@@ -1,3 +1,3 @@
 # submission-web
 
-Ini adalah web sederhana menggunakan html,css sebagai submission pemrograman web dicoding
+ini adalah website sederhana menggunakan HTML dan CSS sebagai submission pemrograman web Dicoding

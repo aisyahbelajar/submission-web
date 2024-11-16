@@ -1,0 +1,169 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8de;
+  color: #674636;
+}
+
+header {
+  background-color: #674636;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  gap: 30%;
+  align-items: center;
+}
+
+header h1 {
+  padding-left: 20px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px 0;
+  gap: 10px;
+}
+
+header nav ul li {
+  margin: 0 15px;
+  background-color: #faf6e3;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+header nav ul li:hover {
+  margin: 0 15px;
+  background-color: #b59f78;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+header nav ul li a {
+  color: #674636;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #faf6e3;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+section,
+aside {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+/* Specific Section Styles */
+#about {
+  flex-basis: 100%;
+}
+#projects {
+  flex-basis: 100%;
+}
+#contact {
+  flex-basis: 70%;
+}
+
+/* Projects Styling */
+
+#projects div {
+  margin-top: 15px;
+}
+
+/* Aside Styling */
+.card,
+.kegiatan {
+  padding: 20px;
+  background: #e0e0e0;
+  margin: 20px;
+  flex: 1 0 20%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.kegiatan {
+  display: flex;
+  max-width: 400px;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.card img {
+  max-width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.kegiatan img {
+  max-width: 60%;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+.social-media img {
+  width: 50px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #674636;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+
+  aside {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-top: 0;
+  }
+}
